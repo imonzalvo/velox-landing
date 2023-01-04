@@ -5,7 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
-
+import image from  './../../assets/images/banner-image.svg';
 const propTypes = {
   ...SectionProps.types
 }
@@ -73,7 +73,7 @@ const Hero = ({
             
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/banner-image.svg')}
+                src={image}
                 alt="Hero"
                 width={896}
                 height={504} />
