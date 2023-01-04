@@ -8,7 +8,7 @@ const Banner = ({
 
   return (
     <>
-      {bannerOpen && (
+      {false && (
         <div {...props} className="banner">
           <div className="banner-inner text-xxs">
             <div className='banner-container'><a className="banner-link banner-link-white" href="https://github.com/cruip/open-react-template" target="_blank" rel="noopener noreferrer">Download<span className="banner-hide-on-sm"> on GitHub</span></a> <span className="banner-separator">or</span> <a className="banner-link banner-link-green" href="https://cruip.com/open-pro/" target="_blank" rel="noopener noreferrer">Check Premium Version</a></div>

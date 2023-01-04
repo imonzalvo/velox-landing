@@ -6,15 +6,20 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 
+import ReactWhatsapp from "react-whatsapp";
+
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
+
 const Home = () => {
 
   return (
     <>
       <Hero className="illustration-section-01" />
       <FeaturesTiles />
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-      <Testimonial topDivider />
-      <Cta split />
+      <FloatingWhatsApp phoneNumber="+59894694373" statusMessage={"Disponible"} accountName={"Velox"} chatMessage={"Buenas! En que podemos ayudarte?"}
+      placeholder={"Escriba su consulta"} style={{height: 420}}
+      />
+
     </>
   );
 }
