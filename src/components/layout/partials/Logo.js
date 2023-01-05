@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Image from '../../elements/Image';
-import logo from './../../../assets/images/logo.svg';
+import logo from './../../../assets/images/logo-removebg.png';
 const Logo = ({
   className,
   ...props
@@ -23,8 +23,8 @@ const Logo = ({
           <Image
             src={logo}
             alt="Open"
-            width={32}
-            height={32} />
+            width={128}
+            height={128} />
         </Link>
       </h1>
     </div>

@@ -80,7 +80,7 @@ const Header = ({
       className={classes}
     >
       <div className="container">
-        <div className={
+        <div style={{marginTop: 32}} className={
           classNames(
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
